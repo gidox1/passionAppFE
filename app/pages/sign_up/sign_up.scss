@@ -1,0 +1,11 @@
+@import '../../assets/styles/color.scss';
+
+.mainwrapper {
+    width: 100%;
+    margin: to-rem(0) auto;
+    background-color: green($color: #000000);
+}
+
+.text {
+    color: red;
+}

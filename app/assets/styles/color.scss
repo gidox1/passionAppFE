@@ -1,0 +1,14 @@
+$colorPallete: (
+    Red: (#ff3b3b),
+    SuccessGreen: (#33b27b),
+    White: (#fff),
+    Black: (#000),
+);
+
+@mixin HoverHandler($color) {
+    color: $color;
+
+    &:hover {
+        color: darken($color, 5%);
+    }
+}

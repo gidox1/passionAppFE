@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  writersdorm:    
+    container_name: writersdorm
+    image: writersdorm
+    build: .
+    volumes:
+      - .:/src
+    networks:
+      - main_network
+
+networks:
+  main_network:
+    driver: bridge

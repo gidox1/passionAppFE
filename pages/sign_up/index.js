@@ -1,0 +1,1 @@
+export {default, } from '../../app/pages/sign_up/sign_up'
